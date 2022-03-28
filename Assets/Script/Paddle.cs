@@ -19,7 +19,7 @@ public class Paddle : MonoBehaviour
     void Update()
     {
         float inputSpeed = Input.GetAxis("Horizontal");
-        float maxZ = floor.localScale.z * 28f * 0.4f - transform.localScale.z * 1f * 0.4f;
+        float maxZ = floor.localScale.z * 38f * 0.4f - transform.localScale.z * 1f * 0.4f;
         float posZ = transform.position.z + inputSpeed * (-1) * speed * Time.deltaTime * playerSpeed ;
         float clampedZ = Mathf.Clamp(posZ, -maxZ, +maxZ);
         

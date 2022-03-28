@@ -10,18 +10,34 @@ public class Ball : MonoBehaviour
     public float maxZ;
     public int score = 0;
     public Text scoreText;
+    public Text lifeText;
+    public float lifeAmount;
+    public bool isPressed = false;
+    public GameObject startText; 
 
     // Start is called before the first frame update
     void Start()
     {
-        velocity = new Vector3(maxZ, 0, 0);
-       
+        startText.gameObject.SetActive(true);
+        //transform.position = new Vector3(-16f, 0.31f, 0f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        onStart();
         transform.position +=  velocity * Time.deltaTime;
+    }
+
+    void onStart()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && !isPressed)
+           {
+            startText.gameObject.SetActive(false);
+            isPressed = true;
+            velocity = new Vector3(maxZ, 0, 0);
+            }
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,10 +58,20 @@ public class Ball : MonoBehaviour
         {
             velocity = new Vector3(-velocity.x, velocity.y, velocity.z);
         }
-        
+
+        if (other.CompareTag("WallBottom"))
+        {
+            velocity = new Vector3(0, 0, 0);
+            transform.position = new Vector3(-16f, 0.3f, 0f);
+            isPressed = false;
+        }
+
+        //Fix thiwith Raycast
+        //Bug that if it hits 2 Blocks it still turns once, not twice - Timer?
+        //dont forget -z!
         if (other.CompareTag("Block"))
         {
-             velocity = new Vector3(-velocity.x, velocity.y, -velocity.z);
+             velocity = new Vector3(-velocity.x, velocity.y, velocity.z);
             // other.gameObject.GetComponent<MeshRenderer>().enabled = false;
             // other.gameObject.GetComponent<BoxCollider>().enabled = false;
 
