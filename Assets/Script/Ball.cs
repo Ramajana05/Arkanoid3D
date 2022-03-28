@@ -14,6 +14,7 @@ public class Ball : MonoBehaviour
     public float lifeAmount;
     public bool isPressed = false;
     public GameObject startText; 
+    public AudioSource audioDataDead;
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +26,11 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        onStart();
+        OnStart();
         transform.position +=  velocity * Time.deltaTime;
     }
 
-    void onStart()
+    void OnStart()
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isPressed)
            {
@@ -48,23 +49,27 @@ public class Ball : MonoBehaviour
             float dist = transform.position.z - other.transform.position.z;
             float nDist = dist / maxDist;
             velocity = new Vector3(-velocity.x, velocity.y, nDist * maxZ);
+            BounceSound();
         }
         if (other.CompareTag("Wall"))
         {
             velocity = new Vector3(velocity.x, velocity.y, -velocity.z);
+            BounceSound();
         }
 
         if (other.CompareTag("WallX"))
         {
             velocity = new Vector3(-velocity.x, velocity.y, velocity.z);
+            BounceSound();
         }
 
         if (other.CompareTag("WallBottom"))
         {
+            audioDataDead.Play();
             velocity = new Vector3(0, 0, 0);
             transform.position = new Vector3(-16f, 0.3f, 0f);
             isPressed = false;
-        }
+        } 
 
         //Fix thiwith Raycast
         //Bug that if it hits 2 Blocks it still turns once, not twice - Timer?
@@ -72,6 +77,7 @@ public class Ball : MonoBehaviour
         if (other.CompareTag("Block"))
         {
              velocity = new Vector3(-velocity.x, velocity.y, velocity.z);
+             BounceSound();
             // other.gameObject.GetComponent<MeshRenderer>().enabled = false;
             // other.gameObject.GetComponent<BoxCollider>().enabled = false;
 
@@ -82,13 +88,16 @@ public class Ball : MonoBehaviour
             }
 
             other.gameObject.GetComponent<Block>().hitCount++;
-
             Destroy(other.gameObject);
         }
  
-        gameObject.GetComponent<AudioSource>().Play();
         score++;
         scoreText.text = score.ToString();
         GameManager.score++;
     }
+
+    private void BounceSound(){
+         gameObject.GetComponent<AudioSource>().Play();
+    }
+
 }
