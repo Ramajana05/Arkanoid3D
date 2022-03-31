@@ -2,25 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Ball : MonoBehaviour
 {
     Vector3 velocity;
     public float maxX;
     public float maxZ;
-    public int score = 0;
-    public Text scoreText;
-    public Text lifeText;
-    public float lifeAmount;
+
     public bool isPressed = false;
     public GameObject startText; 
+    public GameObject gameOverText; 
+
     public AudioSource audioDataDead;
 
+    public TextMeshPro scoreText;
+    public int score = 0;
+
+    public TextMeshPro lifeText;
+    public int lifeAmount;
+  
     // Start is called before the first frame update
     void Start()
     {
         startText.gameObject.SetActive(true);
-        //transform.position = new Vector3(-16f, 0.31f, 0f);
+        gameOverText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +34,8 @@ public class Ball : MonoBehaviour
     {
         OnStart();
         transform.position +=  velocity * Time.deltaTime;
+        scoreText.SetText("Score: " + score);
+        lifeText.SetText("Life: " + lifeAmount);
     }
 
     void OnStart()
@@ -69,7 +77,14 @@ public class Ball : MonoBehaviour
             velocity = new Vector3(0, 0, 0);
             transform.position = new Vector3(-16f, 0.3f, 0f);
             isPressed = false;
-        } 
+            lifeAmount--;
+
+        if(lifeAmount == 0){
+                gameOverText.gameObject.SetActive(true);
+                isPressed = true;
+        }
+            
+    } 
 
         //Fix thiwith Raycast
         //Bug that if it hits 2 Blocks it still turns once, not twice - Timer?
@@ -78,6 +93,7 @@ public class Ball : MonoBehaviour
         {
              velocity = new Vector3(-velocity.x, velocity.y, velocity.z);
              BounceSound();
+        
             // other.gameObject.GetComponent<MeshRenderer>().enabled = false;
             // other.gameObject.GetComponent<BoxCollider>().enabled = false;
 
@@ -86,18 +102,19 @@ public class Ball : MonoBehaviour
                 Block affectedBlock = other.gameObject.GetComponent<Block>();
                 affectedBlock.destroyYourself();
             }
-
+            
             other.gameObject.GetComponent<Block>().hitCount++;
             Destroy(other.gameObject);
+            
         }
  
         score++;
-        scoreText.text = score.ToString();
         GameManager.score++;
     }
 
     private void BounceSound(){
          gameObject.GetComponent<AudioSource>().Play();
     }
+
 
 }
