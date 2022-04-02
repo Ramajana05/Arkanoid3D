@@ -6,6 +6,7 @@ public class Block : MonoBehaviour
 {
     public int hitCount;
     public Material[] materials;
+    public bool breakable;
 
     public void destroyYourself()
     {
@@ -16,8 +17,8 @@ public class Block : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Renderer>().material = GameManager.Instance.defaultMaterial;
-        hitCount = 0;
+        //GetComponent<Renderer>().material = GameManager.Instance.defaultMaterial;
+        //hitCount = 0;
     }
 
     // Update is called once per frame

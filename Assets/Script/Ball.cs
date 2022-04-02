@@ -1,3 +1,5 @@
+using System.Net.WebSockets;
+using System.Net;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -96,15 +98,19 @@ public class Ball : MonoBehaviour
         
             // other.gameObject.GetComponent<MeshRenderer>().enabled = false;
             // other.gameObject.GetComponent<BoxCollider>().enabled = false;
-
-            if (other.gameObject.GetComponent<Block>().hitCount >= 2)
-            {
+            if(other.gameObject.GetComponent<Block>().breakable){
+                if(other.gameObject.GetComponent<Block>().hitCount != 0){
+                other.gameObject.GetComponent<Block>().hitCount--;
                 Block affectedBlock = other.gameObject.GetComponent<Block>();
-                affectedBlock.destroyYourself();
+                //affectedBlock.destroyYourself();
+            } else {
+            //other.gameObject.GetComponent<Block>().hitCount++;
+            Destroy(other.gameObject); 
             }
+        }
             
-            other.gameObject.GetComponent<Block>().hitCount++;
-            Destroy(other.gameObject);
+            
+            
             
         }
  
