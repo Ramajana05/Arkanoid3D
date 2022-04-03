@@ -36,8 +36,8 @@ public class Ball : MonoBehaviour
     {
         OnStart();
         transform.position +=  velocity * Time.deltaTime;
-        scoreText.SetText("Score: " + score);
-        lifeText.SetText("Life: " + lifeAmount);
+        scoreText.SetText("Score " + score);
+        lifeText.SetText("Life " + lifeAmount);
     }
 
     void OnStart()
@@ -104,7 +104,7 @@ public class Ball : MonoBehaviour
                 Block affectedBlock = other.gameObject.GetComponent<Block>();
                 //affectedBlock.destroyYourself();
             } else {
-            //other.gameObject.GetComponent<Block>().hitCount++;
+            
             Destroy(other.gameObject); 
             }
         }
