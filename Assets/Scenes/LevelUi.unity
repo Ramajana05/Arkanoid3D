@@ -171,6 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &35187004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -281,6 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &60699685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -391,6 +393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &97430864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -597,6 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &169704278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -841,6 +845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &208460980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -951,6 +956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &229567179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1061,6 +1067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &242632871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1171,6 +1178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &248728908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1281,6 +1289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &287745720
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1391,6 +1400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &290559232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1501,6 +1511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &309820576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1611,6 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &318619911
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1721,6 +1733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &320937734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1831,6 +1844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &325793839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1941,6 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &363976694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2051,6 +2066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &369219304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2161,6 +2177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &378087637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2310,6 +2327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &424768988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2420,6 +2438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &457489210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2530,6 +2549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &469615641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2640,6 +2660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &526912033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2750,6 +2771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &531750486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2860,6 +2882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &627839855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2970,6 +2993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &630087918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3080,6 +3104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &647982547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3260,6 +3285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &690514140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3409,6 +3435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &718775624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3519,6 +3546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &728666898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3629,6 +3657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &777050785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3779,6 +3808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &795587080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3928,6 +3958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &883731555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4152,6 +4183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &931352815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4308,8 +4340,6 @@ RectTransform:
   m_Children:
   - {fileID: 887388444}
   - {fileID: 183744174}
-  - {fileID: 1757054805}
-  - {fileID: 1849468844}
   - {fileID: 2044584660}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -4379,6 +4409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1031737658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4489,6 +4520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1034240541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4599,6 +4631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1090688592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4709,6 +4742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1096725699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4819,6 +4853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1109139197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4929,6 +4964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1134674706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5039,6 +5075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1160446870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5149,6 +5186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1165614005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5259,6 +5297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1192038878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5369,6 +5408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1226357203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5479,6 +5519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1313321201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5589,6 +5630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1327481712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5699,6 +5741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1351092471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5809,6 +5852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1398635585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5919,6 +5963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1400334622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6112,6 +6157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1416739626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6261,6 +6307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1471923599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6371,6 +6418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1481064871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6481,6 +6529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1544454470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6591,6 +6640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1553163221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6701,6 +6751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1573073304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6811,6 +6862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1591376088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6921,6 +6973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1595620125
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7031,6 +7084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1614289075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7141,6 +7195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1637548289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7251,6 +7306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1664651465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7466,6 +7522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1727308067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7576,6 +7633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1731566108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7686,6 +7744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1750334071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7748,139 +7807,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750334068}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1757054804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1757054805}
-  - component: {fileID: 1757054808}
-  - component: {fileID: 1757054807}
-  - component: {fileID: 1757054806}
-  m_Layer: 5
-  m_Name: Button (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1757054805
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757054804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.005753, y: 15.67365, z: 5}
-  m_Children:
-  - {fileID: 1906312726}
-  m_Father: {fileID: 988901697}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.47500002}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -750, y: -125}
-  m_SizeDelta: {x: 160, y: -6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1757054806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757054804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.41176474, g: 0.36862746, b: 0.93725497, a: 1}
-    m_PressedColor: {r: 0.35686275, g: 0.3254902, b: 0.7254902, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1757054807}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 988901698}
-        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
-        m_MethodName: Level1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1757054807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757054804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.4182918, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1757054808
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757054804}
-  m_CullTransparentMesh: 1
 --- !u!1 &1783479527
 GameObject:
   m_ObjectHideFlags: 0
@@ -7968,6 +7894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1784992506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8078,6 +8005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1809969258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8188,6 +8116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1829391168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8250,138 +8179,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829391165}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1849468843
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1849468844}
-  - component: {fileID: 1849468847}
-  - component: {fileID: 1849468846}
-  - component: {fileID: 1849468845}
-  m_Layer: 5
-  m_Name: Button (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1849468844
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849468843}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.005753, y: 15.67365, z: 5}
-  m_Children: []
-  m_Father: {fileID: 988901697}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.47500002}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -125}
-  m_SizeDelta: {x: 160, y: -6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1849468845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849468843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.41176474, g: 0.36862746, b: 0.93725497, a: 1}
-    m_PressedColor: {r: 0.35686275, g: 0.3254902, b: 0.7254902, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1849468846}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 988901698}
-        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
-        m_MethodName: Level2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1849468846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849468843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8451234, g: 1, b: 0.1462264, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1849468847
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849468843}
-  m_CullTransparentMesh: 1
 --- !u!1 &1904793874
 GameObject:
   m_ObjectHideFlags: 0
@@ -8430,6 +8227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1904793877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8519,14 +8317,14 @@ RectTransform:
   m_GameObject: {fileID: 1906312725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.040660147, z: 0.2}
+  m_LocalScale: {x: 0.20000002, y: 0.040660147, z: 0.2}
   m_Children: []
-  m_Father: {fileID: 1757054805}
+  m_Father: {fileID: 2044584660}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: -18.3}
+  m_AnchoredPosition: {x: -10, y: -18.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1906312727
@@ -8674,6 +8472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1921522282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8784,6 +8583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1927363527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8933,6 +8733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1947465266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9043,6 +8844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1955804765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9153,6 +8955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1957299798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9263,6 +9066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &1965392784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9456,6 +9260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2019890931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9566,6 +9371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2022860452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9676,6 +9482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2039345074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9786,6 +9593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2042617103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9877,13 +9685,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.005753, y: 15.67365, z: 5}
-  m_Children: []
+  m_Children:
+  - {fileID: 1906312726}
   m_Father: {fileID: 988901697}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.47500002}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 750, y: -125}
+  m_AnchoredPosition: {x: 1, y: -112}
   m_SizeDelta: {x: 160, y: -6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044584661
@@ -9932,7 +9741,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 988901698}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
-        m_MethodName: Level3
+        m_MethodName: Level2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10028,6 +9837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2055574041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10138,6 +9948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2070339577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10248,6 +10059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2073813251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10358,6 +10170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2096040113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10468,6 +10281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2123877350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10671,6 +10485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitCount: 0
   materials: []
+  breakable: 0
 --- !u!65 &2139024478
 BoxCollider:
   m_ObjectHideFlags: 0

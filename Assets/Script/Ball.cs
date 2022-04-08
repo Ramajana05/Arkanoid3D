@@ -23,6 +23,10 @@ public class Ball : MonoBehaviour
 
     public TextMeshPro lifeText;
     public int lifeAmount;
+
+    public Transform SpeedPU;
+    public Transform BiggerPU;
+
   
     // Start is called before the first frame update
     void Start()
@@ -33,7 +37,7 @@ public class Ball : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         OnStart();
         transform.position +=  velocity * Time.deltaTime;
         scoreText.SetText("Score " + score);
@@ -46,7 +50,7 @@ public class Ball : MonoBehaviour
            {
             startText.gameObject.SetActive(false);
             isPressed = true;
-            velocity = new Vector3(maxZ, 0, 0);
+            velocity = new Vector3(maxX, 0, maxZ);
             }
         
     }
@@ -85,8 +89,15 @@ public class Ball : MonoBehaviour
                 gameOverText.gameObject.SetActive(true);
                 isPressed = true;
         }
-            
-    } 
+    }
+
+        if (other.CompareTag("BlockSide"))
+        {
+            velocity = new Vector3(velocity.x, velocity.y, -velocity.z);
+            other.gameObject.GetComponent<Block>().hitCount--;
+            BounceSound();
+        }
+         
 
         //Fix thiwith Raycast
         //Bug that if it hits 2 Blocks it still turns once, not twice - Timer?
@@ -104,8 +115,8 @@ public class Ball : MonoBehaviour
                 Block affectedBlock = other.gameObject.GetComponent<Block>();
                 //affectedBlock.destroyYourself();
             } else {
-            
-            Destroy(other.gameObject); 
+               // SpeedPU.position = new Vector3(affectedBlock.velocity.x, affectedBlock.velocity.y, affectedBlock.velocity.z);
+                Destroy(other.gameObject); 
             }
         }
             

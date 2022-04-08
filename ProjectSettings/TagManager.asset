@@ -9,6 +9,8 @@ TagManager:
   - Block
   - WallX
   - WallBottom
+  - BlockSide
+  - PowerUp
   layers:
   - Default
   - TransparentFX
