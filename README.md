@@ -1,5 +1,5 @@
 # Arkanoid3D 2022
-A 3D unity game, using C# for physics. 
+A 3D unity game, using C# scripts for physics. 
 
 Includes: 
 - A little UI System, to enter a Scene.
